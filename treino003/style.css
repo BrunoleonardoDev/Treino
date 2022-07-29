@@ -13,12 +13,14 @@
 
 .container{
     height: 100vh;
+    
 }
 
 .card{
     padding: 15px;
     border-radius: 0.6rem;
-    max-width: 375px;
+    
+    
     
 }
 
@@ -26,7 +28,7 @@
     background-color: var(--Bright-orange);
     border-radius: 8px 8px 0px 0px;
     color: #fff;
-    padding: 50px;
+    padding: 30px;
 }
 
 .card2{
@@ -62,11 +64,12 @@
 
 .card button{
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .card button:hover{
@@ -86,4 +89,23 @@
 
 .card3 button{
     color: var(--Very-dark-cyan);
+}
+
+@media (min-width: 589px) {
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .card1{
+        border-radius: 8px 0px 0px 8px;
+    }
+
+    .card3{
+        border-radius: 0px 8px 8px 0px;
+    }
 }
