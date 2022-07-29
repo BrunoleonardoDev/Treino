@@ -17,7 +17,7 @@
 }
 
 .card{
-    padding: 15px;
+    padding: 0.9375rem;
     border-radius: 0.6rem;
     
     
@@ -26,45 +26,45 @@
 
 .card1{
     background-color: var(--Bright-orange);
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
     color: #fff;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .card2{
     background-color: var(--Dark-cyan);
     color: #fff;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .card3{
     background-color: var(--Very-dark-cyan);
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
     color: #fff;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .card h1{
-    margin-bottom: 20px;
+    margin-bottom: 1.875rem;
     font-family: 'Big Shoulders Display', cursive;
 }
 
 .card p{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: #ffffffbf;
     line-height: 1.8;
 
 }
 
 .card img{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .card button{
     background-color: #fff;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
@@ -91,21 +91,21 @@
     color: var(--Very-dark-cyan);
 }
 
-@media (min-width: 589px) {
+@media (min-width: 36.8125rem) {
     .card{
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        max-width: 850px;
+        max-width: 53.125rem;
         margin: auto;
     }
 
     .card1{
-        border-radius: 8px 0px 0px 8px;
+        border-radius: 0.5rem 0rem 0rem 0.5rem;
     }
 
     .card3{
-        border-radius: 0px 8px 8px 0px;
+        border-radius: 0rem 0.5rem 0.5rem 0rem;
     }
 }
