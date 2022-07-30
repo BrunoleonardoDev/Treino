@@ -4,7 +4,11 @@
     --White-header: hsl(0, 0%, 100%);
     --Slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
     --Slightly-transparen-white-stat-headings: hsla(0, 0%, 100%, 0.6);
-    --Soft-violet-accent: hsl(277, 64%, 61%);
+    --Soft-violet-accent0: hsl(277, 64%, 61%);
+}
+
+.img-desktop{
+    display: none;
 }
 
 *{
@@ -21,30 +25,31 @@ body{
     background-color: var(--Dark-desaturated-blue-card);
     max-width: 280px;
     margin: 0 auto;
-    display: block; 
+    display: block;
     margin: 3rem;
-    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
-    
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;   
 }
 
-.img{
-    height: 32vh;
-    width: 100%;
-    background: url(images/image-header-mobile.jpg);
-    border-radius: 0.4rem 0.4rem 0rem 0rem;
-    background-size: cover;
-    position: relative;
-    
-    
+.imagens{
+    position:relative;
 }
+
+.img-mobile img{
+    width: 100%;
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+    max-height: 210px; 
+    mix-blend-mode: var(--Soft-violet-accent0);
+}
+
 .overlay{
-    height: 32vh;
-    width: 280px;
-    background-color: hsl(277, 86%, 26%) ;
-    opacity: 0.5;
+    background-color: var(--Soft-violet-accent0);
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
     position: absolute;
-    background-size: cover;
-    z-index: 1;
+    width: 100%;
+    height: 99%;
+    top: 0%;
+    left: 0;
+    opacity: .35;
 }
 
 h1{
@@ -83,7 +88,7 @@ strong{
 span{
     color: var(--Slightly-transparen-white-stat-headings);
     font-family: 'Lexend Deca', sans-serif;
-    font-size: .5rem;
+    font-size: 0.5625rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -91,10 +96,10 @@ span{
 }
 
 .final{
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 mark{
     background: none;
-    color: var(--Soft-violet-accent);
+    color: rgb(153, 66, 235);
 }
