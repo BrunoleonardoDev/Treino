@@ -68,18 +68,15 @@
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     font-family: 'Lexend Deca', sans-serif;
+    margin: 1.875rem 0 0.625rem 0;
 }
 
 .card button:hover{
     background-color: transparent;
     color: #fff;
     
-}
-
-.card a:hover{
-    color: #fff;
 }
 
 .card1 button{
