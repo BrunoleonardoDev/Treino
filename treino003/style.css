@@ -74,9 +74,12 @@
 
 .card button:hover{
     background-color: transparent;
-    
     color: #fff;
     
+}
+
+.card a:hover{
+    color: #fff;
 }
 
 .card1 button{
@@ -89,6 +92,21 @@
 
 .card3 button{
     color: var(--Very-dark-cyan);
+}
+
+.card1 a{
+    text-decoration: none;
+    color: var(--Bright-orange);
+}
+
+.card2 a{
+    text-decoration: none;
+    color: var(--Dark-cyan);
+}
+
+.card3 a{
+    text-decoration: none;
+    color:var(--Very-dark-cyan);
 }
 
 @media (min-width: 36.8125rem) {
