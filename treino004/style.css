@@ -22,7 +22,7 @@ body{
 
 .card{
     background-color: var(--Dark-desaturated-blue-card);
-    max-width: 262px;
+    max-width: 375px;
     height: 100%;
     margin: 0 auto;
     display: block;
