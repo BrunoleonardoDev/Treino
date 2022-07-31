@@ -26,6 +26,7 @@ body{
     height: 100%;
     margin: 0 auto;
     display: block;
+    margin: 3rem;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
 }
 
