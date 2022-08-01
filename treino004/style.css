@@ -22,7 +22,7 @@ body{
 
 .card{
     background-color: var(--Dark-desaturated-blue-card);
-    max-width: 375px;
+    max-width: 262px;
     height: 100%;
     margin: 0 auto;
     display: block;
@@ -62,7 +62,7 @@ h1{
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 1.5rem;
     font-size: 1.5rem;
 }
 
