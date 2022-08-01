@@ -26,7 +26,7 @@ body{
     height: 100%;
     margin: 0 auto;
     display: block;
-    margin: 3rem;
+    margin: 4rem;
     border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
 }
 
@@ -62,7 +62,7 @@ h1{
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 4rem;
     font-size: 1.5rem;
 }
 
@@ -108,4 +108,9 @@ span{
 mark{
     background: none;
     color: rgb(153, 66, 235);
+} 
+
+@media (max-width: 375px){
+
 }
+
