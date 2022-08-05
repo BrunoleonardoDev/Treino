@@ -26,12 +26,6 @@ main{
     position: relative;
 }
 
-
-
-
-
-
-
 .container{
     background-color: white;
     display: flex;
@@ -122,7 +116,7 @@ p{
 
 }
 
-@media (max-width: 375px){
+@media (max-width: 330px){
     main{
         background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
