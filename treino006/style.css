@@ -63,12 +63,12 @@ main{
 }
 
 .card p{
-
+    line-height: 1.5rem;
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
-    padding: 0rem 1.5rem .5rem 1.5rem;
+    padding: 0rem 1.5rem 1rem 1.5rem;
 }
 
 .saldo p{
