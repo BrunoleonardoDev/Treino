@@ -1,0 +1,149 @@
+#root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.container{
+    max-width: 375px;
+    margin: 5%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 100px hsl(217, 53%, 8%);
+}
+
+
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.card img{
+    height: 70%;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1.5rem ;
+    
+}
+
+.card h1{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding: 0rem 1.5rem .7rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+.card p{
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    padding: 0rem 1.5rem .5rem 1.5rem;
+}
+
+.saldo p{
+    color: hsl(178, 100%, 50%);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+span{
+    color: white;
+}
+
+
+
+.row{
+    border: 0.5px solid hsl(215, 32%, 27%);
+    width: 85%;
+    padding: 0;
+    margin: 1rem;
+}
+
+.foto img{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-bottom: 1.6rem;
+    margin-top: .5rem;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+}
+
+.foto p{
+    padding: 0 2.8rem 1rem 1rem;
+}
+
+.ether{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ether img{
+    width: 55%;
+    padding: 0;
+    margin-right: .4rem ;
+}
+
+.clock img{
+    width: 90%;
+    padding: 0;
+    margin-top: .2rem;
+    
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+}
+
+.txt2{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt2 p{
+    padding: 0;
+    font-size: .9rem;
+    font-weight: 700;
+}
