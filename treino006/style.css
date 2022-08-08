@@ -77,7 +77,7 @@ main{
 
 .img-top{
     position: relative;
-    margin: 1rem;
+    margin: 1.3rem;
 }
 
 .img-top .overlay img{
@@ -89,7 +89,7 @@ main{
 
 .img-top .overlay:hover{
     opacity: 1;
-    
+
 }
 
 
