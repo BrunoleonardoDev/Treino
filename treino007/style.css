@@ -104,7 +104,7 @@ button:hover{
     cursor: pointer;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 820px) {
 
     body{
         background-image: url(images/bg-mobile.svg);
