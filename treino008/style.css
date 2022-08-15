@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    --fonte1: 'Fraunces', serif;
+    --fonte2: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+main .container{
+    background-color: var(--White);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    border-radius: .8rem;
+}
+.image img{
+    width: 100%;
+    border-radius: .8rem 0 0 .8rem;
+}
+
+.card{
+    padding: 1rem 2rem 2rem 2rem;
+    width: 90%;
+}
+
+span{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: small;
+    font-family: var(--fonte2);
+    color: var(--Dark-grayish-blue);
+}
+
+h1{
+    font-family: var(--fonte1);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+h2{
+    margin-right: 1.5rem;
+}
+
+.price p{
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+    font-family: var(--fonte2);
+}
+
+#text{
+    font-family: var(--fonte2);
+    color: var(--Dark-grayish-blue);
+    line-height: 1.5rem;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte1);
+    color: var(--Dark-cyan);
+    margin-bottom: 2rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    border: none;
+    border-radius: .6rem;
+    height: 50px;
+    padding: 1rem;
+}
+
+.btn img{
+    margin-right: 1rem;
+}
+
+.btn a{
+    text-decoration: none;
+    border: none;
+    font-family: var(--fonte2);
+    font-weight: 700;
+    color: var(--White);
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--Very-dark-blue);
+}
+
+@media (max-width: 600px) {
+
+    main .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 350px;
+        height: 620px;
+    }
+
+    .image img{
+        overflow: hidden;
+        object-fit: cover;
+        object-position: 50% 40%;
+        width: 350px;
+        height: 230px;
+        border-radius: .8rem .8rem 0rem 0rem;
+    }
+
+    .card{
+        padding: .7rem;
+    }
+    
+}
+
+
