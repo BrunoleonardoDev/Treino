@@ -171,13 +171,16 @@ a:hover{
         body{
             align-items: center;
             justify-content: center;
+            
         }
         
         main .container{
-            display: flex;
             flex-direction: column;
             width: 100%;
             max-width: 300px;
+            height: 100%;
+            max-height: 600px;
+            
         }
     
         .card-01{
@@ -202,4 +205,8 @@ a:hover{
             max-width: 450px;
             border-radius: 0 0 .8rem .8rem; 
             padding: 1.2rem;
+        }
+        .card-03 p{
+            font-size: 15px;
+            line-height: 1.3rem;
         }
