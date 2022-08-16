@@ -48,6 +48,7 @@ main .container{
     grid-column-start: 1;
     grid-column-end: 3;
     width: 100%;
+    max-height: 278px;
     max-width: 690px;
     line-height: 1.8rem;
 }
@@ -166,7 +167,7 @@ a:hover{
         padding: 2rem;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 400px) {
         body{
             align-items: center;
             justify-content: center;
