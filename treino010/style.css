@@ -123,7 +123,7 @@ main{
     height: 60%;
 }
 
-.cards p{
+.cards blockquote{
     line-height: 1.3rem;
 }
 
