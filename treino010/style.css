@@ -54,7 +54,7 @@ main{
     color: var(--Very-Dark-Magenta);
     font-weight: 500;
     line-height: 1.3rem;
-    padding: 0 5rem;
+    padding: 0 9rem;
 }
 
 .stars{
@@ -152,7 +152,7 @@ main{
 .card-01, .card-02, .card-03{
     padding: 1.5rem;
     width: 100%;
-    max-width: 285px;
+    max-width: 330px;
     height: 200px;
     border-radius: .5rem;
     background-color: var(--Very-Dark-Magenta);
@@ -226,7 +226,7 @@ main{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 720px) {
 
     .text{
         margin-top: 3rem;

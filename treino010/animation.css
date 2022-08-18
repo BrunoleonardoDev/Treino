@@ -1,0 +1,145 @@
+.cards{
+    
+}
+
+@keyframes cards{
+    
+}
+
+#star1, #star2, #star3{
+    position: relative;
+}
+@keyframes  myAnimation {
+    from {right: -100px;}
+    to {right: 20px;}
+}
+
+@-webkit-keyframes myAnimation {
+    from {right: -100px;}
+    to {right: 20px;}
+}
+
+#star1{
+    animation: myAnimation  4.1s ease-in-out 1s infinite alternate running;
+    -moz-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+    -webkit-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+    -o-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+}
+
+@keyframes myAnimation2 {
+    from {right: -10px;}
+    to {right: 100px;}
+}
+
+@-webkit-keyframes myAnimation2 {
+    from {right: -10px;}
+    to {right: 100px;}
+}
+
+#star2{
+    animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+    -moz-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+    -webkit-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+    -o-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+}
+
+
+@keyframes myAnimation3 {
+    from {right: 50px;}
+    to {right: 180px;}
+}
+
+@-webkit-keyframes myAnimation3 {
+    from {right: 50px;}
+    to {right: 180px;}
+}
+
+#star3{
+    animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+    -moz-animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+    -webkit-animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+    -o-animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+}
+
+
+    #cards1, #cards2, #cards3 {
+        position: relative;
+        
+    }
+    @keyframes  cardsup {
+        from {bottom: 0px;}
+        to {top: 100px;}
+    }
+    
+    @-webkit-keyframes cardsup {
+        from {bottom: 0px;}
+        to {top: 100px;}
+    }
+    
+    #cards1, #cards2, #cards3 {
+        animation: cardsup 2s ease 0.5s 1 normal running;
+        -moz-animation: cardsup 2s ease 0.5s 1 normal running;
+        -webkit-animation: cardsup 2s ease 0.5s 1 normal running;
+        -o-animation: cardsup 2s ease 0.5s 1 normal running;
+    }
+
+
+
+
+
+@media (max-width: 820px){
+    
+    #star1, #star2, #star3{
+        position: relative;
+    }
+    @keyframes  myAnimation {
+        from {right: -20px;}
+        to {right: 20px;}
+    }
+    
+    @-webkit-keyframes myAnimation {
+        from {right: -20px;}
+        to {right: 20px;}
+    }
+    
+    #star1{
+        animation: myAnimation  4.1s ease-in-out 1s infinite alternate running;
+        -moz-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+        -webkit-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+        -o-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+    }
+
+    @keyframes  myAnimation2 {
+        from {left: -20px;}
+        to {left: 20px;}
+    }
+    
+    @-webkit-keyframes myAnimation2 {
+        from {left: -20px;}
+        to {left: 20px;}
+    }
+    
+    #star2{
+        animation: myAnimation2  4.1s ease-in-out 1s infinite alternate running;
+        -moz-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+        -webkit-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+        -o-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
+    }
+
+    @keyframes  myAnimation3 {
+        from {right: -20px;}
+        to {right: 20px;}
+    }
+    
+    @-webkit-keyframes myAnimation3 {
+        from {right: -20px;}
+        to {right: 20px;}
+    }
+    
+    #star3{
+        animation: myAnimation3  4.1s ease-in-out 1s infinite alternate running;
+        -moz-animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+        -webkit-animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+        -o-animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
+    }
+}
