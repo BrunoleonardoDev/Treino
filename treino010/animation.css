@@ -10,20 +10,13 @@
     position: relative;
 }
 @keyframes  myAnimation {
-    from {right: -100px;}
+    from {right: -65px;}
     to {right: 20px;}
 }
 
 @-webkit-keyframes myAnimation {
     from {right: -100px;}
     to {right: 20px;}
-}
-
-#star1{
-    animation: myAnimation  4.1s ease-in-out 1s infinite alternate running;
-    -moz-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
-    -webkit-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
-    -o-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
 }
 
 @keyframes myAnimation2 {
@@ -36,6 +29,23 @@
     to {right: 100px;}
 }
 
+@keyframes myAnimation3 {
+    from {right: 50px;}
+    to {right: 175px;}
+}
+
+@-webkit-keyframes myAnimation3 {
+    from {right: 50px;}
+    to {right: 175px;}
+}
+
+#star1{
+    animation: myAnimation  4.1s ease-in-out 1s infinite alternate running;
+    -moz-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+    -webkit-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+    -o-animation: myAnimation 4.1s ease-in-out 1s infinite alternate running;
+}
+
 #star2{
     animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
     -moz-animation: myAnimation2 4.1s ease-in-out 1s infinite alternate running;
@@ -44,15 +54,6 @@
 }
 
 
-@keyframes myAnimation3 {
-    from {right: 50px;}
-    to {right: 180px;}
-}
-
-@-webkit-keyframes myAnimation3 {
-    from {right: 50px;}
-    to {right: 180px;}
-}
 
 #star3{
     animation: myAnimation3 4.1s ease-in-out 1s infinite alternate running;
