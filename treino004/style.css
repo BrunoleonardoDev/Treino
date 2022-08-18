@@ -95,7 +95,7 @@
     
 }
 
-@media (max-width: 350px){
+@media (max-width: 400px){
     
     .container{
         background-color: #090b1a;
@@ -155,12 +155,12 @@
     }
 
     .number{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .name{
         margin-bottom: 2rem;
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     
