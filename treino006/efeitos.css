@@ -1,0 +1,15 @@
+.clock img{
+    transition: transform 1s;
+}
+
+.clock img:hover{
+    transform: rotateZ(720deg);
+}
+
+.ether img{
+    transition: transform 1s;
+}
+
+.ether img:hover{
+    transform: rotateY(720deg);
+}
