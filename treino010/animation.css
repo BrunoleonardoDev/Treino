@@ -60,22 +60,23 @@
         
     }
     @keyframes  cardsup {
-        from {bottom: 50px;}
-        to {top: 100px;}
+        from {transform: translateY( 0px);}
+        to {transform: translateY(-50px);}
+        
+        
     }
     
     @-webkit-keyframes cardsup {
-        from {bottom: 50px;}
-        to {top: 100px;}
+    
+        
     }
     
     #cards1, #cards2, #cards3 {
-        animation: cardsup 2s linear 0.5s 1 normal running;
-        -moz-animation: cardsup 2s linear 0.5s 1 normal running;
-        -webkit-animation: cardsup 2s linear 0.5s 1 normal running;
-        -o-animation: cardsup 2s linear 0.5s 1 normal running;
+        animation: cardsup 1s ease 0.5s 2 alternate running;
+        -moz-animation: cardsup 1s ease 0.5s 2 alternate running;
+        -webkit-animation: cardsup 1s ease 0.5s 2 alternate running;
+        -o-animation: cardsup 1s ease 0.5s 2 alternate running;
     }
-
 
 
 
