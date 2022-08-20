@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap');
+
+
+:root{
+    --white:      #f3efef;
+    --gray:       #beb9b9;
+    --green:      #00cf30;
+    --blue:       #0575E6;
+    --dark_green: #217373;
+    --dark_gray:  #3D3D3D;
+    --dark_cian:  #173540;
+    --dark_blue:  #161F30;
+    --black:      #111111;
+    --primalFont: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #200220, #001830 );
+    position: relative;
+}
+
+.blur
+{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 500px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(40px);
+    z-index: 5;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.245);
+}
+
+.circulo img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -220px;
+    
+    
+}
+
+.circulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.circulo2 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -60px;
+    
+}
+
+.circulo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.circulo3 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -80px;
+    
+}
+
+.circulo3{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.circulo4 img{
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    right: 103px;   
+}
+
+.circulo4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.espaço{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 500px;
+    position: relative;
+    
+}
+
+#qr-code{
+    width: 90%;
+    margin: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    margin-bottom: 3rem;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    padding: 10px;
+
+}
+p{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    padding: 0 2rem;
+    color: hsl(212, 17%, 69%);
+}
+
+

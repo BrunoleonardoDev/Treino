@@ -1,0 +1,73 @@
+#verde, #azul{
+    position: relative;
+}
+
+
+@keyframes  verde {
+    from {transform: translateY(-100px);}
+    to {transform: translateY(100px);}
+}
+
+@-webkit-keyframes verde {
+    from {left: 50px;}
+    to {left: 100px;}
+}
+
+#verde{
+    animation: verde 2s ease 0.5s infinite alternate running;
+    -moz-animation: verde 2s ease 0.5s infinite alternate running;
+    -webkit-animation: verde 2s ease 0.5s infinite alternate running;
+    -o-animation: verde 2s ease 0.5s infinite alternate running;
+}
+
+@keyframes  azul {
+    from {transform: translateY(-100px);}
+        to {transform: translateY(100px);}
+}
+
+@-webkit-keyframes azul {
+    from {right: 50px;}
+    to {right: 100px;}
+}
+
+#azul{
+    animation: azul 1s ease 0.5s infinite alternate running;
+    -moz-animation: azul 1s ease 0.5s infinite alternate running;
+    -webkit-animation: azul 1s ease 0.5s infinite alternate running;
+    -o-animation: azul 1s ease 0.5s infinite alternate running; 
+}
+
+@keyframes  laranja {
+    from {transform: translateX(-100px);}
+        to {transform: translateY(100px);}
+}
+
+@-webkit-keyframes laranja {
+    from {bottom: -50px;}
+    to {top: 100px;}
+}
+
+#laranja{
+    animation: laranja 2s ease 0.5s infinite alternate running;
+    -moz-animation: laranja 2s ease 0.5s infinite alternate running;
+    -webkit-animation: laranja 2s ease 0.5s infinite alternate running;
+    -o-animation: laranja 2s ease 0.5s infinite alternate running;
+}
+
+@keyframes  rosa {
+    from {transform: translateX(100px);}
+        to {transform: translateY(100px);}
+       
+}
+
+@-webkit-keyframes rosa {
+    from {bottom: -50px;}
+    to {top: 100px;}
+}
+
+#rosa{
+    animation: rosa 2s ease 0.5s infinite alternate running;
+    -moz-animation: rosa 2s ease 0.5s infinite alternate running;
+    -webkit-animation: rosa 2s ease 0.5s infinite alternate running;
+    -o-animation: rosa 2s ease 0.5s infinite alternate running;
+}
