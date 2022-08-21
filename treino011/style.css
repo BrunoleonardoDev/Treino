@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    gap: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.header img{
+    width: 200px;
+}
+
+.header a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+    height: 45px;
+    color: var(--Light-Pink);
+    border: 2px solid;
+    border-radius: 2rem;
+}
+
+.header a:hover{
+    background-color: var(--Light-Pink);
+    color: white;
+    border: 2px solid var(--Light-Pink);
+    transition: ease-in-out .5s;
+}
+
+.conteudo-01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center bottom;
+}
+
+.conteudo-01 h1{
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-01 p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 0 26rem;
+    text-align: center;
+}
+
+.conteudo-01 a{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--Pink);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 3rem;
+}
+
+.conteudo-01 a:hover{
+    border: 2px solid var(--Pink);
+    background-color: white;
+    color: var(--Pink);
+    transition: ease-in-out .5s;
+}
+
+.number{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    
+}
+
+.number img{
+    width: 30px;
+    margin: 0%;
+}
+
+.comunity{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.number h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.8rem;
+}
+
+.number p{
+    color: var(--Very-Dark-Cyan);
+    padding: 0;
+    font-weight: 400;
+}
+
+#comu{
+    margin-right: 20rem;
+}
+
+.conteudo-02{
+    background-color: var(--Very-Pale-Blue);
+    border: 1px solid;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descrição{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 445px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.descrição p{
+    padding: 0;
+    text-align: start;
+    font-size: small;
+    font-weight: 600;
+}
+
+.grow img{
+    width: 400px;
+}
+
+.conteudo-03{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flowing img{
+    width: 400px;
+}
+
+.descrição-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 445px;
+}
+
+.descrição-02 p{
+    padding: 0;
+    text-align: start;
+    font-size: small;
+    font-weight: 600;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    background-color: var(--Very-Dark-Cyan);
+    color: white;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    padding: 3rem;
+}
+
+.logo img{
+    filter: brightness(0) invert(1);
+    width: 200px;
+    margin-bottom: 1rem;
+    
+}
+
+.contato{
+    margin-top: 1rem;
+    display: flex;  
+}
+
+.logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+}
+
+.lado-esquerdo{
+    border: 1px solid white;
+    width: 260px;
+}
