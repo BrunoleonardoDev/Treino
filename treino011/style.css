@@ -101,6 +101,8 @@ body{
     transition: ease-in-out .5s;
 }
 
+
+
 .number{
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -142,7 +144,6 @@ body{
 
 .conteudo-02{
     background-color: var(--Very-Pale-Blue);
-    border: 1px solid;
     display: flex;
     width: 100%;
     align-items: center;
@@ -203,15 +204,35 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+}
+
+.final img{
+    width: 100%;
+}
+
+#top-desktop{
+    width: 100%;
+}
+
+#bottom-desktop{
+    margin-bottom: 8rem;
+    width: 100%;
+}
+
+#top-footer{
+    margin-top: 4rem;
+    width: 100%;
 }
 
 .footer{
     background-color: var(--Very-Dark-Cyan);
     color: white;
     display: flex;
-    height: 400px;
+    height: 300px;
     align-items: center;
     padding: 3rem;
+    justify-content: space-around;
 }
 
 .logo img{
@@ -221,17 +242,73 @@ h2{
     
 }
 
+.logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+    font-weight: 600;
+}
 .contato{
     margin-top: 1rem;
     display: flex;  
 }
 
-.logo p{
+.contato img{
+    margin-right: 1rem;
+    width: 20px;
+}
+
+.contato P{
     font-family: 'Open Sans', sans-serif;
-    font-size: .7rem;
+    font-size: .9rem;
+    font-weight: 600;
 }
 
 .lado-esquerdo{
-    border: 1px solid white;
     width: 260px;
+}
+
+.lado-direito{
+    width: 260px;
+}
+
+.lado-direito p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    width: 280px;
+}
+
+.lado-direito h3{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+input{
+    border-radius: .3rem;
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin-right: 1rem;
+    padding: 0 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: .3rem;
+    border:  none;
+    background-color: var(--Pink);
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+    background-color: var(--Very-Dark-Cyan);
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    border: 1px solid white;
 }
