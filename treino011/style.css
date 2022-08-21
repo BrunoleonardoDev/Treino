@@ -71,7 +71,7 @@ body{
 .conteudo-01 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    padding: 0 26rem;
+    width: 500px;
     text-align: center;
 }
 
