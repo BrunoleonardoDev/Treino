@@ -21,6 +21,9 @@ body{
 }
 
 .header{
+    border: 1px solid;
+    width: 100%;
+    max-width: 1440px;
     gap: 30rem;
     display: flex;
     align-items: center;
@@ -29,7 +32,8 @@ body{
 }
 
 .header img{
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
 }
 
 .header a{
@@ -71,7 +75,8 @@ body{
 .conteudo-01 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -101,17 +106,19 @@ body{
     transition: ease-in-out .5s;
 }
 
-
+#mockup{
+    width: 100%;
+    max-width: 1000px;
+}
 
 .number{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
     display: flex;
-    
 }
 
 .number img{
-    width: 30px;
+    width: 100%;
+    max-width: 30px;
     margin: 0%;
 }
 
@@ -136,6 +143,8 @@ body{
     color: var(--Very-Dark-Cyan);
     padding: 0;
     font-weight: 400;
+    width: 100%;
+    max-width: 164px;
 }
 
 #comu{
@@ -172,7 +181,8 @@ h2{
 }
 
 .grow img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .conteudo-03{
@@ -183,7 +193,8 @@ h2{
 }
 
 .flowing img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .descrição-02{
@@ -237,7 +248,8 @@ h2{
 
 .logo img{
     filter: brightness(0) invert(1);
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     margin-bottom: 1rem;
     
 }
@@ -264,11 +276,13 @@ h2{
 }
 
 .lado-esquerdo{
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
 }
 
 .lado-direito{
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
 }
 
 .lado-direito p{
@@ -276,7 +290,8 @@ h2{
     font-size: .7rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
 }
 
 .lado-direito h3{
@@ -287,7 +302,8 @@ h2{
 input{
     border-radius: .3rem;
     height: 40px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     border: none;
     margin-right: 1rem;
     padding: 0 1rem;
@@ -296,7 +312,8 @@ input{
 }
 
 button{
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
     height: 40px;
     border-radius: .3rem;
     border:  none;
