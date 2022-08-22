@@ -138,6 +138,7 @@ body{
 .number h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 3.8rem;
+    margin: 0;
 }
 
 .number p{
@@ -146,6 +147,7 @@ body{
     font-weight: 400;
     width: 100%;
     max-width: 164px;
+    margin: 0;
 }
 
 #comu{
@@ -334,6 +336,21 @@ button:hover{
     border: 1px solid white;
 }
 
+.redes i{
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+}
+
+.redes i:hover{
+    cursor: pointer;
+    color: rgb(0, 85, 255);
+}
+
+.input{
+    display: flex;
+}
+
 
 @media (max-width: 820px) {
 
@@ -354,8 +371,6 @@ button:hover{
     }
 
     .header a{
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
         font-size: 1rem;
         width: 100%;
         max-width: 150px;
@@ -416,4 +431,205 @@ button:hover{
         max-width: 90px;
     }
 
+    .redes i{
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-right: 1rem;
+    }
+
+    .redes i:hover{
+        cursor: pointer;
+        color: rgb(0, 85, 255);
+    }
+
+}
+
+
+@media (max-width: 620px) {
+    body{
+        width: 100%;
+        max-width: 620px;
+
+    }
+
+    .header{
+        gap: 5rem;
+        padding: 2rem 1rem;
+    }
+
+    .header img{
+        width: 100%;
+        max-width: 100px;
+        
+    }
+
+    .header a{
+        font-size: .8rem;
+        width: 100%;
+        max-width:100px;
+        height: 35px;
+    }
+
+    .conteudo-01 h1{
+        font-size: 1.5rem;
+        text-align: center;
+       width: 300px;
+    }
+
+    .conteudo-01 p{
+        width: 100%;
+        max-width: 290px;
+        font-size: .8rem;
+    }
+
+    .conteudo-01 a{
+        width: 1005;
+        max-width: 200px;
+        height: 50px;
+        font-size: .8rem;
+        margin: 3rem 0;
+    }
+
+    #mockup{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .number{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .number h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3.8rem;
+        width: 100%;
+        max-width: 200px;
+        
+    }
+    
+    .number p{
+        color: var(--Very-Dark-Cyan);
+        padding: 0;
+        font-weight: 400;
+        width: 100%;
+        max-width: 164px;
+
+    }
+
+    .status{
+        max-width: 150px;
+        margin-bottom: 5rem;
+    }
+
+    #comu{
+        margin-right: 0rem;
+    }
+
+    .conteudo-02{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 500px;
+    }
+
+    .conteudo-02 p{
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .conteudo-02 h2{
+        font-size: 1.5rem;
+    }
+
+    .conteudo-03{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 500px;
+    }
+
+    .conteudo-03 h2{
+        font-size: 1.2rem;
+    }
+
+    .conteudo-03 p{
+        
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .descrição-02{
+        align-items: center;
+    }
+
+    .descrição{
+        align-items: center;
+    }
+
+    .final h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .final a{
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+        height: 600px;
+    }
+
+    .footer h3{
+        margin-bottom: 1rem;
+    }
+
+    .footer p{
+        margin-bottom: 1.5rem;
+    }
+
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    input{
+        max-width: 260px;
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+
+    button{
+        max-width: 130px;
+    
+    }
+
+    .footer img{
+        max-width: 170px;
+    }
+
+    .contato img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .contato p{
+        margin-bottom: .5rem;
+    }
+
+    .redes i{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .redes i:hover{
+        cursor: pointer;
+        color: rgb(0, 85, 255);
+    }
 }
