@@ -1,0 +1,29 @@
+.loading p{
+    margin-right: .5rem;
+    font-size: .8rem;
+    color: hsl(270, 7%, 64%);
+}
+
+.loading {
+    display: flex;
+    height: 5px;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  @keyframes arrows {
+    0%,
+    100% {
+      color: black;
+      transform: translateY(0);
+    }
+    50% {
+      color: #b5b5b5;
+      transform: translateY(1px);
+    }
+  }
+  
+  span {
+    --delay: 0s;
+    animation: arrows 1s var(--delay) infinite ease-in;
+  }

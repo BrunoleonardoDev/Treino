@@ -20,6 +20,8 @@ body{
     height: 100vh;
 }
 
+
+
 .header{
     width: 100%;
     max-width: 1440px;
@@ -158,7 +160,7 @@ body{
    
     background-color: var(--Very-Pale-Blue);
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 300px;
     align-items: center;
     justify-content: space-around;
@@ -246,10 +248,11 @@ h2{
     background-color: var(--Very-Dark-Cyan);
     color: white;
     display: flex;
-    height: 300px;
     align-items: center;
     padding: 3rem;
     justify-content: space-around;
+    height: 500px;
+    
 }
 
 .logo img{
@@ -288,7 +291,7 @@ h2{
 
 .lado-direito{
     width: 100%;
-    max-width: 260px;
+    max-width: 280px;
 }
 
 .lado-direito p{
@@ -348,6 +351,7 @@ button:hover{
 }
 
 .input{
+    width: 500px;
     display: flex;
 }
 
