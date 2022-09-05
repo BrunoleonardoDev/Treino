@@ -76,20 +76,20 @@ input:hover{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.412);
 }
 
-#ciano{
+.ciano{
     background-color: var(--Strong-Cyan);
     margin-right: 1.5rem;
 }
 
-#ciano:hover{
+.ciano:hover{
     background-color: hsl(171, 53%, 59%);
 }
 
-#azul{
+.azul{
     background-color: var(--Light-Blue);
 }
 
-#azul:hover{
+.azul:hover{
     background-color: hsl(233, 100%, 75%);
 }
 
@@ -257,7 +257,7 @@ a:hover{
         gap: 1.5rem;
     }
 
-    #ciano{
+    .ciano{
         margin-right: unset;
     }
 
