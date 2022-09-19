@@ -1,4 +1,4 @@
-# Desagio Frontend Mentor - Order summary card
+# Desafio Frontend Mentor - Order summary card
 
 ![preview](../treino002/images/brunoleonardodev.github.io_Treino_treino002_.png)
 
