@@ -1,6 +1,6 @@
 # Desagio Frontend Mentor - Order summary card
 
-![preview](../treino001/images/brunoleonardodev.github.io_Treino_treino001_.png)
+![preview](../treino001/images/brunoleonardodev.github.io_Treino_treino002_.png)
 
 > Desafio 02 personalizado
 
