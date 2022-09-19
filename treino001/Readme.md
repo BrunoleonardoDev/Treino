@@ -4,7 +4,7 @@
 
 > Desafio 01 personalizado
 
-[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino)
+[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino/treino001/)
 
 
 ## 👨🏾‍💻 Tecnologias
