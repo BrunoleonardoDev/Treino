@@ -2,7 +2,7 @@
 
 ![preview](./design/desktop-preview.jpg)
 
-> Desafio 05
+> Desafio 06
 
 [🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino/treino006/)
 
