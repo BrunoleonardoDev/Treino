@@ -4,7 +4,7 @@
 
 > Desafio 04
 
-[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino/treino001/)
+[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino/treino004/)
 
 
 ## 👨🏾‍💻 Tecnologias
