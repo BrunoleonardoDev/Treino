@@ -4,7 +4,7 @@
 
 > Desafio 13
 
-[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino/treino014/)
+[🔗 Click aqui para acessar](https://brunoleonardodev.github.io/Treino/Treino014/)
 
 
 ## 👨🏾‍💻 Tecnologias
